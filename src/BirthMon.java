@@ -10,6 +10,7 @@ public class BirthMon {
 
         if (in.hasNextInt()){ // checks to make sure input was integer
             month = in.nextInt(); // grabs user input
+            in.nextLine(); // clear buffer
             if (month>=1 && month<=12){ // makes sure it is between 1-12
             System.out.println("Your birth month is: " + month); // output user input
 
