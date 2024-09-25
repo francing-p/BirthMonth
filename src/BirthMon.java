@@ -15,7 +15,7 @@ public class BirthMon {
 
                 }
             else{ // response if not between 1-12
-                System.out.println("Number out of range. Please rerun and try again");
+                System.out.println(month + " is out of range. Please rerun and try again");
             }
         }
         else{ // response if not an integer
